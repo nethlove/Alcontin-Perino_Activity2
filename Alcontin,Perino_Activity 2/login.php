@@ -132,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 
     <div class="login-box">
-        <h3 class="mb-3">Welcome Back</h3>
+        <h3 class="mb-3">User Login</h3>
 
         <?php if (!empty($error)): ?>
             <div class="alert alert-danger py-2"><?php echo $error; ?></div>
